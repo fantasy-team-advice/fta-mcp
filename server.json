@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.fantasyteamadvice/fta-mcp",
+  "title": "Fantasy Team Advice",
+  "description": "Fantasy and DFS data for NFL, NBA, MLB and NHL in Claude and ChatGPT. Needs an FTA membership.",
+  "version": "1.0.0",
+  "websiteUrl": "https://fantasyteamadvice.com/fantasy-mcp-tools",
+  "repository": { "url": "https://github.com/fantasy-team-advice/fta-mcp", "source": "github" },
+  "remotes": [{ "type": "streamable-http", "url": "https://mcp.fantasyteamadvice.com/mcp" }]
+}
